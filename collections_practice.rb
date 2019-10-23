@@ -19,6 +19,7 @@ def swap_elements(array)
   b= array.pop
  c= array.sort do |a,b| b<=>a
  end
+ binding.pry
  c.unshift(b)
 end
 
