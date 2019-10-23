@@ -22,3 +22,6 @@ end
 end
 
 def reverse_array(array)
+  barray = array.reverse
+  barray
+end
