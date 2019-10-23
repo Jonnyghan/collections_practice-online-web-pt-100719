@@ -16,7 +16,7 @@ end
 end
 
 def swap_elements(array)
- binding.pry
+ #binding.pry
   b= array.shift
  c= array.sort do |a,b| b<=>a
  end
