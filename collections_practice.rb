@@ -16,9 +16,9 @@ end
 end
 
 def swap_elements(array)
-  array.sort do |0,1,2|  
-    [0,2,1]
-end
+  b= array.pop
+ c= array.sort |a,b| b<=>a
+ c.unshift(b[0])
 end
 
 def reverse_array(array)
