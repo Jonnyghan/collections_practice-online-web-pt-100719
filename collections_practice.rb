@@ -27,3 +27,7 @@ def reverse_array(array)
   barray = array.reverse
   barray
 end
+
+def kesha_maker(array)
+  array.each do |item|
+    
